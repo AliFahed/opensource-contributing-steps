@@ -1,8 +1,10 @@
 # Open Source Contirbuting Steps
 All the steps required to contribute to open source projects in one place.
 
-## Setup
-
+<details open>
+  <summary><h2>Setup</h2></summary>
+  
+  
 **1.** Read the Contributing guide for the project.
 
 **2.** Fork the original("upstream") repository into your own GitHub account by clicking the
@@ -23,11 +25,14 @@ running something like following command:
 ```bash
 git remote add upstream https://github.com/original-repo-name/project-name.git
 ```
+</details>
 
-## Workflow
+<details open>
+  <summary><h2>Workflow</h2></summary>
+  
 - Whenever you want to contribute always do it in a new branch not the main code base, then
 after you finish adding/modifying whatever you want to do you will merge it with main.
-
+  
 ### Steps to Create New Branch
 
 **1.** Create new branch by running the following command:
@@ -66,9 +71,12 @@ then merge main into it:
 ```bash
 git merge main
 ```
+  
+</details>
 
-## Make a Pull Request
-
+<details open>
+  <summary><h2>Make a Pull Request</h2></summary>
+  
 **1.** To send your created branch to "upstream" you need first to push the branch to
 your forked repo, by running:
 ```bash
@@ -82,4 +90,4 @@ and write good description on what you did to make it easier for mentors to unde
 changes.
 
 ### OSS Contributer 
-
+</details>
