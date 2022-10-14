@@ -66,3 +66,20 @@ then merge main into it:
 ```bash
 git merge main
 ```
+
+## Make a Pull Request
+
+**1.** To send your created branch to "upstream" you need first to push the branch to
+your forked repo, by running:
+```bash
+git push origin branch-name
+```
+
+**2.** Finally, Submit the pull request in GitHub Interface. Go to your forked repo
+you will notice a notification that have a make pull request button, click it and follow
+the steps, make sure to follow the instructions if the project have a pull request template,
+and write good description on what you did to make it easier for mentors to understand your
+changes.
+
+### OSS Contributer 
+
