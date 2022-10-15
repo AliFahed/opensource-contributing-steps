@@ -1,7 +1,7 @@
 # Open Source Contirbuting Steps
 All the steps required to contribute to open source projects in one place.
 
-<details open>
+<details close>
   <summary><h2>Setup</h2></summary>
   
   
@@ -27,7 +27,7 @@ git remote add upstream https://github.com/original-repo-name/project-name.git
 ```
 </details>
 
-<details open>
+<details close>
   <summary><h2>Workflow</h2></summary>
   
 - Whenever you want to contribute always do it in a new branch not the main code base, then
@@ -74,7 +74,7 @@ git merge main
   
 </details>
 
-<details open>
+<details close>
   <summary><h2>Make a Pull Request</h2></summary>
   
 **1.** To send your created branch to "upstream" you need first to push the branch to
